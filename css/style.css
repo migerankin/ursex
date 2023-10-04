@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1d1f20;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.673);
+}
+body::-webkit-scrollbar-track{
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.25);
+}
+.box{
+    display: flex; align-items: center; width: 100%; justify-content: center; padding: 20px; box-sizing: border-box; flex-wrap: wrap;
+}
+.bar{
+    height: 110px; width: 350px; display: flex; align-items: center; padding: 20px; box-sizing: border-box; border-radius: 12px; cursor: pointer; margin: 10px auto; transition: .3s; max-width: 90%;
+}
+.bar:hover{
+    transform: scale(1.02);
+}
+.icon{
+    height: 80px; border-radius: 12px; overflow: hidden;
+}
+.iconIMG{
+    height: 100%; width: auto;
+}
+.name{
+    font-weight: 300;font-size: 22px;padding-top: 5px;padding-bottom: 5px; color: #fff; margin-left: 20px; text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    position: fixed;
+    color: aliceblue;
+    right: 0;
+    background-color: #004669;
+    padding: 10px 15px 5px;
+    z-index: 999;
+    top: 10%;
+    border-radius: 10px 0 0 10px;
+}
+.top p:hover{
+    opacity: 1;
+}
+.top p{
+    opacity: .8;
+    transition: .5s;
+    margin: 15px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+.topSecond{
+    top: 70%;
+}
+.buhanhang{
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.topSecond img{
+    height: 25px;
+}
+.topSecond p{
+    margin: 8px auto;
+}
